@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+}
+
+#cart{
+    background-color: rgb(241, 158, 2);
+    border: 25px solid  rgb(241,158,2);
+    padding: -10px;
+    margin: -10px;
+}
+
+#title{
+    display: inline;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(161, 105, 1);
+    font-size: 30px;
+    position: relative;
+    left: 17px;
+    bottom: 8px;
+    font-size: 27px;
+    font-style: bold;
+}
+
+.product{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.about{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.price{
+    font-family: 'Source Sans Pro', sans-serif;
+    float: right;
+    position: relative;
+    bottom: 50px;
+}
+
+#itemOne, #itemTwo, #itemThree, #itemFour, #itemFive, #itemSix{
+    border-bottom: 1px solid lightgray;
+    position: relative;
+    top: 85px;
+    margin: 70px;
+    padding:20px;
+}
+
+#itemOne{
+    border-top: 1px solid lightgray;
+}
