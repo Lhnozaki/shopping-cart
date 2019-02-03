@@ -1,50 +1,77 @@
 body{
     background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #cart{
     background-color: rgb(241, 158, 2);
-    border: 25px solid  rgb(241,158,2);
-    padding: -10px;
+    border: 40px solid  rgb(241,158,2);
     margin: -10px;
+}
+
+#shoppingCart{
+    width: 75px;
 }
 
 #title{
     display: inline;
-    font-family: 'Source Sans Pro', sans-serif;
     color: rgb(161, 105, 1);
-    font-size: 30px;
+    font-size: 40px;
     position: relative;
     left: 17px;
-    bottom: 8px;
-    font-size: 27px;
-    font-style: bold;
+    bottom: 15px;
+    font-weight: 900;
 }
 
 .product{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .about{
-    font-family: 'Source Sans Pro', sans-serif;
+    color: lightgrey;
+    font-size: 30px;
 }
 
 .price{
-    font-family: 'Source Sans Pro', sans-serif;
     float: right;
     position: relative;
-    bottom: 50px;
+    bottom: 75px;
+    font-weight: 100;
 }
 
 #itemOne, #itemTwo, #itemThree, #itemFour, #itemFive, #itemSix{
     border-bottom: 1px solid lightgray;
     position: relative;
-    top: 85px;
-    margin: 70px;
-    padding:20px;
+    top: 60px;
+    margin: 100px;
+    padding: 100px;
 }
 
 #itemOne{
     border-top: 1px solid lightgray;
+}
+
+#itemTwo{
+    position: relative;
+    top: -30px;
+}
+
+#itemThree{
+    position: relative;
+    top: -80px;
+}
+
+#itemFour{
+    position: relative;
+    top: -150px;
+}
+
+#itemFive{
+    position: relative;
+    top: -200px;
+}
+
+#itemSix{
+    position: relative;
+    top: -250px;
 }

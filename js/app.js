@@ -24,17 +24,87 @@ let arr = [
 ];
 
 let item = document.getElementsByClassName('product');
-for (i=0;i<item.length;i++){
-    item[i].innerHTML = arr[i].product;
-}
 
 let details = document.getElementsByClassName('about');
-for (j=0;j<details.length;j++){
-    details[j].innerHTML = arr[j].description;
-}
 
 let money = document.getElementsByClassName('price');
-for (i=0;i<money.length;i++){
+
+for (i=0;i<item.length;i++){
+    item[i].innerHTML = arr[i].product;
+    details[i].innerHTML = arr[i].description;
     money[i].innerHTML = "$" + arr[i].price;
+    item[i].addEventListener('click', showMe)
 }
 
+function showMe (){
+    var info = this.querySelectorAll('.about')[0];
+    if (info.style.display === 'block'){
+        console.log('ok!');
+    }
+}
+
+// let one = document.getElementById('itemOne');
+// one.addEventListener('click', showMeOne)
+// function showMeOne(){
+//     var data = this.querySelectorAll('.about')[0];
+//     if(data.style.display === 'none'){
+//         data.style.display = 'block';
+//     }else{
+//         data.style.display = 'none';
+//     }
+// }
+
+// let two = document.getElementById('itemTwo');
+// two.addEventListener('click', showMeTwo)
+// function showMeTwo(){
+//     var data = this.querySelectorAll('.about')[0];
+//     if(data.style.display === 'none'){
+//         data.style.display = 'block';
+//     }else{
+//         data.style.display = 'none';
+//     }
+// }
+
+// let three = document.getElementById('itemThree');
+// three.addEventListener('click', showMeThree)
+// function showMeThree(){
+//     var data = this.querySelectorAll('.about')[0];
+//     if(data.style.display === 'none'){
+//         data.style.display = 'block';
+//     }else{
+//         data.style.display = 'none';
+//     }
+// }
+
+// let four = document.getElementById('itemFour');
+// four.addEventListener('click', showMeFour)
+// function showMeFour(){
+//     var data = this.querySelectorAll('.about')[0];
+//     if(data.style.display === 'none'){
+//         data.style.display = 'block';
+//     }else{
+//         data.style.display = 'none';
+//     }
+// }
+
+// let five = document.getElementById('itemFive');
+// five.addEventListener('click', showMeFive)
+// function showMeFive(){
+//     var data = this.querySelectorAll('.about')[0];
+//     if(data.style.display === 'none'){
+//         data.style.display = 'block';
+//     }else{
+//         data.style.display = 'none';
+//     }
+// }
+
+// let six = document.getElementById('itemSix');
+// six.addEventListener('click', showMeSix)
+// function showMeSix(){
+//     var data = this.querySelectorAll('.about')[0];
+//     if(data.style.display === 'none'){
+//         data.style.display = 'block';
+//     }else{
+//         data.style.display = 'none';
+//     }
+// }
