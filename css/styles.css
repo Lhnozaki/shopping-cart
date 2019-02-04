@@ -5,73 +5,133 @@ body{
 
 #cart{
     background-color: rgb(241, 158, 2);
-    border: 40px solid  rgb(241,158,2);
+    border: 25px solid  rgb(241,158,2);
     margin: -10px;
 }
 
 #shoppingCart{
-    width: 75px;
+    width: 50px;
 }
 
 #title{
     display: inline;
     color: rgb(161, 105, 1);
-    font-size: 40px;
+    font-size: 30px;
     position: relative;
     left: 17px;
-    bottom: 15px;
+    bottom: 7px;
     font-weight: 900;
 }
 
-.product{
-    font-size: 30px;
+.mono{
+    font-size: 27px;
+    font-weight: 900;
+    position: relative;
+    display: inline;
+    left: 20px;
+    bottom: 70px;
 }
 
 .about{
-    color: lightgrey;
-    font-size: 30px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+    padding: auto;
 }
 
 .price{
     float: right;
     position: relative;
-    bottom: 75px;
+    bottom: -10px;
     font-weight: 100;
+    font-size: 30px;
 }
 
-#itemOne, #itemTwo, #itemThree, #itemFour, #itemFive, #itemSix{
-    border-bottom: 1px solid lightgray;
+#itemOne, #itemTwo, #itemThree, #itemFour, #itemFive, #itemSix, #subtotal{
+    border-top: 1px solid lightgray;
     position: relative;
-    top: 60px;
-    margin: 100px;
-    padding: 100px;
+    top: 70px;
+    margin: 80px;
+    padding: 10px;
 }
 
 #itemOne{
-    border-top: 1px solid lightgray;
+    /* border-top: 1px solid lightgray; */
+    position: relative;
 }
 
 #itemTwo{
     position: relative;
-    top: -30px;
+    top: -50px;
 }
 
 #itemThree{
     position: relative;
-    top: -80px;
+    top: -170px;
 }
 
 #itemFour{
     position: relative;
-    top: -150px;
+    top: -310px;
+    padding: auto;
 }
 
 #itemFive{
     position: relative;
-    top: -200px;
+    top: -430px;
 }
 
 #itemSix{
     position: relative;
-    top: -250px;
+    top: -550px;
+}
+
+#finger{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 15px;
+}
+
+#manilow{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 15px;
+}
+
+#ramen{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 15px;
+}
+
+#woof{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 15px;
+}
+
+#sauna{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 15px;
+}
+
+#hug{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 15px;
+}
+
+#subtotal{
+    position: relative;
+    top: -670px;
+    font-size: 30px;
 }
