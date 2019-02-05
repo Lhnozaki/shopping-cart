@@ -177,6 +177,10 @@ divSeven.id = "subtotal";
 divSeven.innerHTML = "Subtotal:";
 document.body.appendChild(divSeven);
 
+let ikuraSeven = document.createElement('h2');
+ikuraSeven.className = 'price';
+divSeven.appendChild(ikuraSeven);
+
 
 // Data
 
@@ -226,3 +230,11 @@ function showMeOne (){
         }
     }
 
+function getTotal(X){
+    let sum = 0;
+    for (i=0; i<X.length; i++){
+        sum += X[i].price;
+    ikuraSeven.innerHTML = "$" + sum;
+    }
+}
+getTotal(arr);
